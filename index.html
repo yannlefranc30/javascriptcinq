@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The JavaScript et the witchers</h1>
+<
+<p id="ciri"></p>
+
+<script>
+  // Creation d'un objet
+  const person = {
+    firstName: "gerald",
+    lastName: "thewitchers",
+    id: 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+  // Display data from the object:
+  document.getElementById("ciri").innerHTML = person.fullName();
+</script>
+
+</body>
+</html></html>
